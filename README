@@ -19,7 +19,7 @@ Este repositório contém scripts Python para extrair dados da documentação do
 
    Clone este repositório em sua máquina local:
 
-git clone:
+git clone: https://github.com/okarinadantas/kc-index-errors.git
 
 
 3. **Instalar Dependências**
@@ -27,7 +27,6 @@ git clone:
 Certifique-se de instalar as dependências necessárias. Você pode fazer isso executando:
 
 pip install -r requirements.txt
-
 
 4. **Executar os Scripts**
 
