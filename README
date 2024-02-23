@@ -1,0 +1,56 @@
+## Scripts em python para extração e manipulação de dados: 
+
+Link documentação keycloak: https://www.keycloak.org/docs-api/23.0.6/javadocs/org/keycloak/services/ServicesLogger.html
+
+Este repositório contém scripts Python para extrair dados da documentação do keycloak e manipulá-los criando um index resumido dos erros e avisos do pacote ´org.keycloak.services´.
+
+## Arquivos no Repositório
+
+- `extrair_dados_html.py`: Script para extrair dados de um arquivo HTML (documentação keycloak) e salvar as informações em um arquivo JSON.
+- `processar_dados.py`: Script para processar os dados extraídos de um arquivo JSON e realizar manipulações específicas.
+
+## Como Usar
+
+1. **Instalação**
+
+   Certifique-se de ter o Python instalado em sua máquina.
+
+2. **Clonar o Repositório**
+
+   Clone este repositório em sua máquina local:
+
+git clone:
+
+
+3. **Instalar Dependências**
+
+Certifique-se de instalar as dependências necessárias. Você pode fazer isso executando:
+
+pip install -r requirements.txt
+
+
+4. **Executar os Scripts**
+
+- Execute `extrair_dados_html.py` para extrair dados de um arquivo HTML e salvar em um arquivo JSON:
+
+  ```
+  python extrair_dados_html.py
+  ```
+
+- Execute `processar_dados.py` para processar os dados extraídos do arquivo JSON:
+
+  ```
+  python processar_dados.py
+  ```
+
+5. **Verificar Resultados**
+
+Após a execução dos scripts, você pode verificar os resultados nos arquivos de saída gerados.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com quaisquer melhorias ou correções.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
